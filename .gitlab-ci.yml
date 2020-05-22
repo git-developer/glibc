@@ -1,0 +1,8 @@
+include:
+  remote: "https://github.com/git-developer/docker-support/raw/v3.0.0/gitlab-ci/docker-template.yml"
+
+variables:
+  IMAGE_TITLE: 'glibc'
+  IMAGE_PLATFORMS: 'linux/amd64,linux/i386,linux/arm/v6'
+  IMAGE_VERSION: '2.31'
+  BUILD_ARGS: 'GLIBC_VERSION=2.31'
